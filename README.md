@@ -37,18 +37,22 @@ optional arguments:
 
 
 ### Examples
-* Calculate distance between *Ectocarpus* and reactions based on a PADMet Metacyc file and a json taxonomy file (no calls to NCBI API)
-    
-    ```dist_pwy_rxn.py --email example@email.com --padmet metacyc.padmet --fromjson example_taxa.json --orga Ectocarpus```
+* Calculate distance between *Ectocarpus* and reactions based on a PADMet Metacyc file and a json taxonomy file (no calls to NCBI API)   
+    ```
+    dist_pwy_rxn.py --email example@email.com --padmet metacyc.padmet --fromjson example_taxa.json --orga Ectocarpus
+    ```
 
 * Calculate distance between *Ectocarpus* and reactions based on a PADMet Metacyc file and write a json taxonomy file to store the data retrieved through the API
-    
-    ```dist_pwy_rxn.py --email example@email.com --padmet metacyc.padmet --tojson taxo_storage.json --orga Ectocarpus```
+    ```
+    dist_pwy_rxn.py --email example@email.com --padmet metacyc.padmet --tojson taxo_storage.json --orga Ectocarpus
+    ```
 
-* Calculate distance between *Ectocarpus* and reactions based on a PADMet Metacyc file
-    
-    ```dist_pwy_rxn.py --email example@email.com --padmet metacyc.padmet --orga Ectocarpus```
+* Calculate distance between *Ectocarpus* and reactions based on a PADMet Metacyc file    
+    ```
+    dist_pwy_rxn.py --email example@email.com --padmet metacyc.padmet --orga Ectocarpus
+    ```
 
-* Store the taxonomic information related to reactions of a PADMet Metacyc file and retrieved through the API
-    
-    ```dist_pwy_rxn.py --email example@email.com --padmet metacyc.padmet --tojson taxo_storage.json```
+* Store the taxonomic information related to reactions of a PADMet Metacyc file and retrieved through the API  
+    ```
+    dist_pwy_rxn.py --email example@email.com --padmet metacyc.padmet --tojson taxo_storage.json
+    ```
